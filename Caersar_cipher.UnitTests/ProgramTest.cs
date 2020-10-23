@@ -10,13 +10,10 @@ namespace Caersar_cipher.UnitTests
         [TestMethod]
         public void KeyModule_KeyIsLower_ReturnKey()
         {
-            //Arrange
             int key = 22;
 
-            //Act
             int result = Program.KeyModule(key);
 
-            //Assert
             Assert.AreEqual(key, result);
         }
 
@@ -50,6 +47,19 @@ namespace Caersar_cipher.UnitTests
             string cipherText = Program.DoCaesar(key, text);
 
             Assert.AreEqual(text, cipherText);
+        }
+
+        [TestMethod]
+        public void DoCaesar_EncryptAndDecrypt_ReturnSameText()
+        {
+            string text = "ABC";
+            int encryptionKey = 5;
+            int decryptionKey = -5;
+
+            string cipherText = Program.DoCaesar(encryptionKey, text);
+            string decryptedCipherText = Program.DoCaesar(decryptionKey, cipherText);
+
+            Assert.AreEqual(text, decryptedCipherText);
         }
     }
 }

@@ -8,10 +8,12 @@ namespace Caesar_chipher
 {
     public class Program
     {
+		const int MODULE_NUMBER = 26;
+
 		static void Main(string[] args)
 		{
-			string text = "ABC".ToUpper();
-			int key = 26;
+			string text = "ABC";
+			int key = 1;
 
 			if (Operate(key, text))
 			{
@@ -24,6 +26,7 @@ namespace Caesar_chipher
 		public static bool Operate(int key, string text)
 		{
 			//Initial text
+			text = text.ToUpper();
 			Console.WriteLine("Initial text: {0}", text);
 
 			//Return key module
@@ -34,7 +37,7 @@ namespace Caesar_chipher
 			string cipherText = DoCaesar(key, text);
 			Console.WriteLine("Cipher text: {0}", cipherText);
 
-			//Text decryption
+			//Text decryption, invert the same key and method should return initial text
 			string decryptedText = DoCaesar(key * -1, cipherText);
 			Console.WriteLine("Text after decryption: {0}", decryptedText);
 
@@ -45,10 +48,10 @@ namespace Caesar_chipher
 
 		public static int KeyModule(int key)
 		{
-			if (Math.Abs(key) < 26) return key;
+			if (Math.Abs(key) < MODULE_NUMBER) return key;
 
-			//Perform module operation because alphabet consist of 26 letters
-			return key % 26;
+			//Perform module operation because alphabet consist of MODULE_NUMBER letters
+			return key % MODULE_NUMBER;
 		}
 
 		public static string DoCaesar(int key, string text)
@@ -60,14 +63,17 @@ namespace Caesar_chipher
 			for (int i = 0; i < buffer.Length; i++)
 			{
 				char letter = buffer[i];
+
+				//shift letter by key positions
 				letter = (char)(letter + key);
+				//check if letter is still in alphebet range
 				if (letter > 'Z')
 				{
-					letter = (char)(letter - 26);
+					letter = (char)(letter - MODULE_NUMBER);
 				}
 				else if (letter < 'A')
 				{
-					letter = (char)(letter + 26);
+					letter = (char)(letter + MODULE_NUMBER);
 				}
 				buffer[i] = letter;
 			}

@@ -1,0 +1,6 @@
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\bin\Debug\Caesar_chipher.exe.config
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\bin\Debug\Caesar_chipher.exe
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\bin\Debug\Caesar_chipher.pdb
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\obj\Debug\Caesar_chipher.csprojAssemblyReference.cache
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\obj\Debug\Caesar_chipher.exe
+C:\Users\paudas\source\repos\Caesar_chipher\Caesar_chipher\obj\Debug\Caesar_chipher.pdb

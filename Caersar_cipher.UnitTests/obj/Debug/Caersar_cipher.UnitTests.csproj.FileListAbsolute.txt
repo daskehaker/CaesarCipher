@@ -1,0 +1,16 @@
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Caersar_cipher.UnitTests.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Caersar_cipher.UnitTests.pdb
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Caesar_chipher.exe
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Caesar_chipher.pdb
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Caesar_chipher.exe.config
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\obj\Debug\Caersar_cipher.UnitTests.csprojAssemblyReference.cache
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\obj\Debug\Caersar_cipher.UnitTests.csproj.CopyComplete
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\obj\Debug\Caersar_cipher.UnitTests.dll
+C:\Users\paudas\source\repos\Caesar_chipher\Caersar_cipher.UnitTests\obj\Debug\Caersar_cipher.UnitTests.pdb
